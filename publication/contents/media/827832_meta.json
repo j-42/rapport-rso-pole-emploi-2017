@@ -1,0 +1,53 @@
+{
+  "id" : 827832,
+  "type" : 4,
+  "src" : "$media$827832.png",
+  "icon" : "$media$827832.png",
+  "label" : "logo.png",
+  "descriptions" : { },
+  "titles" : { },
+  "creationDate" : "2018-06-13 10:09:05",
+  "lastUpdateDate" : "2018-06-13 10:09:05",
+  "beginDate" : "2018-06-13 10:09:05",
+  "version" : 1,
+  "name" : "logo.png",
+  "parent" : 827828,
+  "originalFile" : "827832.png",
+  "originalFileSize" : 29993,
+  "countryFlags" : [ ],
+  "associatedResolutions" : {
+    "827832" : "default"
+  },
+  "resolutions" : {
+    "default" : {
+      "supported" : [ "jpg", "tif", "gif", "png", "jpeg" ],
+      "sizes" : [ {
+        "width" : 1920,
+        "height" : 1440,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : false
+      }, {
+        "width" : 360,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : false
+      }, {
+        "width" : 960,
+        "height" : 720,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : false
+      }, {
+        "width" : 720,
+        "height" : 0,
+        "box" : true,
+        "extension" : "jpg",
+        "ignoreUpscale" : false
+      } ]
+    }
+  },
+  "tags" : [ ],
+  "resolution" : "82x82"
+}

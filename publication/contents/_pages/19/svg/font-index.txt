@@ -1,0 +1,7 @@
+Bliss2-BoldItalic:Bliss2-BoldItalic#32:SXASVW+Bliss2-BoldItalic-32-0:19/font11.ttf
+PoleEmploiPro-Bold:PoleEmploiPro-Bold#36:SXASVW+PoleEmploiPro-Bold-36-0:19/font12.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#17:ZBSIPI+PoleEmploiPro-Regular-17-0:19/font8.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#49:ZBSIPI+PoleEmploiPro-Regular-49-0:19/font7.ttf
+Bliss2-Light:Bliss2-Light#41:SXASVW+Bliss2-Light-41-0:19/font13.ttf
+PoleEmploiPro-Reg-Cn:PoleEmploiPro-Reg-Cn#27:SXASVW+PoleEmploiPro-Reg-Cn-27-0:19/font10.ttf
+PoleEmploiPro-Light:PoleEmploiPro-Light#22:SXASVW+PoleEmploiPro-Light-22-0:19/font9.ttf

@@ -1,0 +1,8 @@
+Bliss2-LightItalic:Bliss2-LightItalic#30:OCCIRE+Bliss2-LightItalic-30-0:12/font11.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#39:AZSCDG+PoleEmploiPro-Regular-39-0:12/font15.ttf
+PoleEmploiPro-Reg-Cn:PoleEmploiPro-Reg-Cn#34:OCCIRE+PoleEmploiPro-Reg-Cn-34-0:12/font12.ttf
+Georgia-Bold:Georgia-Bold#44:OCCIRE+Georgia-Bold-44-0:12/font13.ttf
+Bliss2-Light:Bliss2-Light#25:OCCIRE+Bliss2-Light-25-0:12/font10.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#51:AZSCDG+PoleEmploiPro-Regular-51-0:12/font14.ttf
+Bliss2-BoldItalic:Bliss2-BoldItalic#16:OCCIRE+Bliss2-BoldItalic-16-0:12/font8.ttf
+Bliss2-Bold:Bliss2-Bold#21:OCCIRE+Bliss2-Bold-21-0:12/font9.ttf

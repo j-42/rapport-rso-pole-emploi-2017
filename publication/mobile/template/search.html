@@ -1,0 +1,32 @@
+<div class="search__notification popup-title">
+  <span class="search__counter"></span>
+  {{webpublicationNamespace.Utils.prodTools.getWordLangueByIndex("search_result")}}
+</div>
+
+<div class="search">
+
+  <form class="search__form">
+    <input type="text" class="search__form-field" value="{{search}}" placeholder="{{webpublicationNamespace.Utils.prodTools.getWordLangueByIndex("searchPlaceholder")}}" />
+    <div class="search__form-submit">
+      {{iconPlugin('search-v4','')}}
+    </div>
+    <div class="search__form-reset">
+
+      {{iconPlugin('close-2-v4','')}}
+    </div>
+  </form>
+
+  <div class="search__result"></div>
+  <div class="search__final-result">
+    <div class="search__final-result-title">
+      {{webpublicationNamespace.Utils.prodTools.getWordLangueByIndex("search_ended")}}
+    </div>
+    <div class="search__counter-has-result">
+      <span class="search__counter">0</span>
+      {{webpublicationNamespace.Utils.prodTools.getWordLangueByIndex("search_result")}}
+    </div>
+    <div class="search__counter-no-result">
+      {{webpublicationNamespace.Utils.prodTools.getWordLangueByIndex("search_no_result")}}
+    </div>
+  </div>
+</div>

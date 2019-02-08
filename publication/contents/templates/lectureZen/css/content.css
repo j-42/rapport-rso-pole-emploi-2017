@@ -1,0 +1,206 @@
+body{
+    font-family: 'Pole Emploi PRO', 'Arial', sans-serif;
+    font-size:18px;
+}
+.container{
+    width: 80%;
+    width: calc(100% - 140px);
+    height: 100%;
+    margin: auto;
+    text-align: justify;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+h1,h2,h3,h4,h5,h6,a,p,blockquote{
+    letter-spacing: 1px;
+}
+p{
+    font-size: 20px;
+    margin: 10px auto;
+    line-height: 25px;
+    max-width: 100%;
+}
+h1{
+    font-size: 65px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 70px;
+    margin: 20px auto 30px auto;
+}
+h2{
+    font-size:65px;
+    font-weight:500;
+    color:#003975;
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+    color: white;
+    padding: 8px 0 8px 0;
+    line-height: 1.6em;
+}
+
+h3 span
+{
+    font-size: 25px;
+}
+
+
+h6
+{
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+}
+blockquote
+{
+    font-family: "Pole-Emploi-PRO-Bold", "Arial", sans-serif;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 20px 0;
+    margin: 0;
+    border: none;
+    max-width: 100%;
+}
+a, a:hover, a:active, a:focus{
+    color: black;
+    font-size:16px;
+    cursor:pointer;
+}
+
+a:hover, a:active, a:focus{
+    text-decoration:none !important;
+    outline: none; 
+}
+img{
+    max-width: 100%;
+}
+
+
+
+/*   ---------------   COLORS  ---------------   */
+
+.blue{
+    color: #003975;
+}
+.green{
+    color: #377173;
+}
+
+
+
+
+.ceinture{
+    margin: 20px 0;
+    max-height: 100%;
+}
+
+
+
+
+
+
+
+
+.name, .name2, .name3, .name4
+{
+    font-size: 18px;
+    width: 100%;
+}
+
+.name
+{
+    background-color: #1E7D6E;
+}
+
+.name2
+{
+    background-color: #165726;
+}
+
+.name3
+{
+    background-color: #004A4D;
+}
+
+.name4
+{
+    background-color: #1E7D6E;
+}
+
+
+h2 span
+{
+   font-size:65px;
+    color:#003975;
+    font-weight: 100;
+    text-align: center;
+}
+
+i{
+    font-style: italic;
+    color: #009ee0;
+}
+
+#output{
+    padding: 3em 0;
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width: 568px) {
+    
+    h2, h2 span
+    {
+        font-size: 45px;
+    }
+    
+    h3 span
+    {
+        font-size: 20px;
+    }
+    
+    .name, .name2, .name3, .name4
+    {
+        font-size: 13px;
+    }
+    
+    blockquote
+    {
+        font-size: 16px;
+    }
+    
+    h3
+    {
+        padding: 5%;
+    }
+
+}
+ 
+@media screen and (max-width: 480px) {
+    
+    blockquote
+    {
+        padding: 20px 5% 20px 5%;    
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .inner-content {
+        padding: 70px 40px;
+    }
+}

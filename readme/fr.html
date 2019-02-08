@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Masters Readme</title>
+<link rel="stylesheet" href="css/style.css">
+
+<script>
+	function langChoose() {
+		var langSelect = document.getElementById("langSelect");
+		var selectedLang = langSelect.options[langSelect.selectedIndex].value;
+		window.open(selectedLang + ".html","_self");
+	}
+</script>
+</head>
+
+<body>
+<div id="topmenu">
+	<div id="menu">
+		<select id="langSelect" name="lang" onchange="langChoose()">
+		  <option value="uk">English</option>
+		  <option value="fr" selected>Francais</option>
+		  <option value="es">Espanol</option>
+		  <option value="ru">Ру́сский</option>
+		  <!-- 
+		  <option value="de">Deutsch</option>
+		  <option value="it">Italiano</option>
+		  <option value="pl">Polski</option>
+		  <option value="br">Portugues</option>
+		  <option value="tr">Turkce</option> 
+		  -->
+		</select>
+		
+		
+		<span id="title">Readme</span>
+		
+	</div>
+</div>
+
+<div id="content">
+<div id="wrapper">
+	<h2>Comment lancer votre master offline</h2>
+	<div>
+	<p>
+	<h3><i>Sur Windows</i></h3>
+	<ol>
+		<li>dezippez le fichier master.zip en double cliquant dessus</li>
+		<li>ouvrir votre dossier dézippé</li>
+		<li>lancer la lecture en double-cliquant sur le fichier "start.exe"</li>
+	</ol>
+	</p>
+	<p>
+	<h3><i>Sur Mac</i></h3>
+	<ol>
+		<li>dezippez le fichier master.zip en double cliquant dessus</li>
+		<li>dans votre dossier, dezippez le fichier start.zip en doublecliquant dessus</li>
+		<li>(Sur Sierra)Double cliquez sur  start.app pour lancer la publication. Si vous rencontrez une erreur, déplacer start.app sur votre bureau et remettez le ensuite dans son dossier.</li>
+		<li>Exécuter l'application "start"</li>
+	</ol>
+	</p>
+	</div>
+	
+	<br />
+	<h2>Comment installer votre master online</h2>
+	<div>
+	<p>
+	<h3><i>Pré-requis</i></h3>
+	<ul>
+		<li>Votre serveur Web (Apache, Nginx, Microsoft IIS, etc), doit etre configuré au minimum avec les Types MIME suivants:</li>
+		<ul>
+			<li>JSON (<i>application/json</i>)</li>
+			<li>XML (<i>application/xml</i>)</li>
+			<li>HTML (<i>text/html</i>)</li>
+			<li>JavaScript (<i>text/javascript</i>)</li>
+			<li>CSS (<i>text/css</i>)</li>
+			<li>JPG (<i>image/jpeg</i>)</li>
+			<li>PNG (<i>image/png</i>)</li>
+			<li>SVG (<i>image/svg+xml</i>)</li>
+			<li>SWF (<i>application/x-shockwave-flash</i>)</li>
+			<li>PDF (<i>application/pdf</i>)</li>
+			<li>MP4 (<i>video/mp4</i>)</li>
+		</ul>
+		<li>Autorisez à servir du contenu depuis les dossiers suivants:</li>
+		<ul>
+			<li>.drive</li>
+			<li>.gallery</li>
+		</ul>
+	</ul>
+	</p>
+	<p>
+	<h3><i>Installation</i></h3>
+	<ol>
+		<li>Dezippez le fichier master.zip en double cliquant dessus</li>
+		<li>Déplacez le dossier créé dans l'espace Web prévu sur votre serveur</li>
+	</ol>
+	</p>
+	</div>
+</div>
+</div>
+
+</body>
+</html>

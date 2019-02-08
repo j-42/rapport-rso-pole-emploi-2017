@@ -1,0 +1,4 @@
+Bliss2-Light:Bliss2-Light#27:OCCIRE+Bliss2-Light-27-0:4/font7.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#17:AZSCDG+PoleEmploiPro-Regular-17-0:4/font5.ttf
+PoleEmploiPro-Light:PoleEmploiPro-Light#22:OCCIRE+PoleEmploiPro-Light-22-0:4/font6.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#41:AZSCDG+PoleEmploiPro-Regular-41-0:4/font4.ttf

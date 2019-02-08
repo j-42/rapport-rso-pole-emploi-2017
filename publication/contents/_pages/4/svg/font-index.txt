@@ -1,0 +1,4 @@
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#17:ZBSIPI+PoleEmploiPro-Regular-17-0:4/font5.ttf
+PoleEmploiPro-Light:PoleEmploiPro-Light#22:SXASVW+PoleEmploiPro-Light-22-0:4/font6.ttf
+Bliss2-Light:Bliss2-Light#27:SXASVW+Bliss2-Light-27-0:4/font7.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#41:ZBSIPI+PoleEmploiPro-Regular-41-0:4/font4.ttf

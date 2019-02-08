@@ -1,0 +1,77 @@
+<div class="webpub-lightbox webpub-lightbox-panel webpub-lightbox--animation-{{animation}} webpub-lightbox-panel--header-{{header}}{{if priority}} webpub-lightbox-panel--priority-{{priority}}{{/if}}{{if position}} webpub-lightbox-panel--position-{{position}}{{/if}}" data-action="overlay" id="webpub-lightbox-{{id}}">
+<!--
+
+YOU MUST ADD webpub-lightbox CLASS TO THE MAIN ELEMENT
+
+Action bindable
+  data-action="close"
+  data-action="menu"
+  data-action="overlay"
+  data-section="content"
+  data-section="header"
+  data-section="iframe"
+  data-section="title"
+
+Attributes for the lightbox
+  height
+  width
+  title
+  priority
+  animation
+  header
+  headerSpacer
+  menuButton
+  closeButton
+  url
+  html
+  position
+
+-->
+{{if originalParams && originalParams.appearance && (originalParams.appearance.customizationEnable === true || originalParams.appearance.customizationUrl)}}
+  <style type="text/css" class="params-style" data-style-id="{{id}}">
+    #webpub-lightbox-{{id}} .webpub-lightbox-default-header-close-icon svg,
+    #webpub-lightbox-{{id}} .webpub-lightbox-theater-header-close-icon svg,
+    #webpub-lightbox-{{id}} .webpub-lightbox-page-header-close-icon svg,
+    #webpub-lightbox-{{id}} .webpub-lightbox-modale-header-close-icon svg {
+      fill: {{hexToRgbaPlugin(originalParams.appearance.xButtonColor, originalParams.appearance.xButtonColorOpacity)}};
+    }
+
+    #webpub-lightbox-{{id}} .webpub-lightbox-panel-content-html,
+    #webpub-lightbox-{{id}} .webpub-lightbox-modale-content,
+    #webpub-lightbox-{{id}}.webpub-lightbox-default,
+    #webpub-lightbox-{{id}}.webpub-lightbox-theater,
+    #webpub-lightbox-{{id}}.webpub-lightbox-page {
+      background-color: {{hexToRgbaPlugin(originalParams.appearance.backgroundColor, originalParams.appearance.backgroundOpacity)}};
+    }
+
+    #webpub-lightbox-{{id}} .webpub-lightbox-default-header-close,
+    #webpub-lightbox-{{id}} .webpub-lightbox-default-header-close-icon,
+    #webpub-lightbox-{{id}} .webpub-lightbox-theater-header-close,
+    #webpub-lightbox-{{id}} .webpub-lightbox-theater-header-close-icon,
+    #webpub-lightbox-{{id}} .webpub-lightbox-page-header-close-icon,
+    #webpub-lightbox-{{id}} .webpub-lightbox-page-header-close {
+      color: {{hexToRgbaPlugin(originalParams.appearance.xButtonColor, originalParams.appearance.xButtonColorOpacity)}};
+    }
+
+    #webpub-lightbox-{{id}} .webpub-lightbox-default-header,
+    #webpub-lightbox-{{id}} .webpub-lightbox-theater-header,
+    #webpub-lightbox-{{id}} .webpub-lightbox-page-header {
+      background-color: {{hexToRgbaPlugin(originalParams.appearance.barBackgroundColor, originalParams.appearance.barBackgroundOpacity)}};
+    }
+  </style>
+{{/if}}
+
+  <div class="webpub-lightbox-panel-content" data-animation="content" data-action="overlay">
+    {{exists url}}
+      <!-- contenteditable property is for not losing focus in forms on mobile browser, causes visual bug on pdf on IE -->
+      <iframe class="webpub-lightbox-panel-content-url" src="{{url}}" data-section="iframe" {{exists isNotPdfUrl}}contenteditable="true"{{/exists}}
+        {{exists height}}height="{{height}}"{{/exists}} {{exists width}}width="{{width}}"{{/exists}}
+        style="{{exists height}}height:{{height}};{{/exists}}{{exists width}}width:{{width}};{{/exists}}"
+      ></iframe>
+    {{otherwise}}
+      <div class="webpub-lightbox-panel-content-html" data-section="content"
+        style="{{exists height}}height:{{height}};{{/exists}}{{exists width}}width:{{width}};{{/exists}}"
+      ></div>
+    {{/exists}}
+  </div>
+</div>

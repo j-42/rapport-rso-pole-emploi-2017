@@ -1,0 +1,8 @@
+Auto1-BlackItalicLF:Auto1-BlackItalicLF#25:OCCIRE+Auto1-BlackItalicLF-25-0:14/font11.ttf
+GraphikCond-Semibold:GraphikCond-Semibold#39:OCCIRE+GraphikCond-Semibold-39-0:14/font14.ttf
+PoleEmploiPro-Light:PoleEmploiPro-Light#20:OCCIRE+PoleEmploiPro-Light-20-0:14/font10.ttf
+Bliss2-Light:Bliss2-Light#44:OCCIRE+Bliss2-Light-44-0:14/font15.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#52:AZSCDG+PoleEmploiPro-Regular-52-0:14/font8.ttf
+PoleEmploiPro-Bold:PoleEmploiPro-Bold#34:OCCIRE+PoleEmploiPro-Bold-34-0:14/font13.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#15:AZSCDG+PoleEmploiPro-Regular-15-0:14/font9.ttf
+PoleEmploiPro-Reg-Cn:PoleEmploiPro-Reg-Cn#29:OCCIRE+PoleEmploiPro-Reg-Cn-29-0:14/font12.ttf

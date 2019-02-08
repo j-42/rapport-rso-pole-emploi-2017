@@ -1,0 +1,17 @@
+<div class="${data.popupClass} ${data.idPopUp}" popupAttr="${data.popupAttr}" >
+  <span class="progress_elem" ></span>
+  <div class="popup-header">
+    <div class="popup-icon popup-dropdown">
+      {{html iconPlugin('dropdown', 'primary.actionColor')}}
+    </div>
+    {{if data.title}}
+      <div class="title-popup text-big">{{html data.title}}</div>
+    {{/if}}
+    <div class="popup-icon popup-close">
+      {{html iconPlugin('close', 'primary.actionColor')}}
+    </div>
+  </div>
+  <div class="popup-body">
+    <div class="popup-content"></div>
+  </div>
+</div>

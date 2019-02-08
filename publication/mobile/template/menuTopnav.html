@@ -1,0 +1,65 @@
+{{if theme === "v3"}}
+
+  <div class="webpub-topnav {{if visible}}webpub-topnav--visible{{/if}}">
+    <div class="webpub-topnav__region webpub-topnav__left">
+      {{each(i, item) itemsLeft}}
+        {{if item.template}}
+          {{templatePlugin( item.template, item) }}
+        {{else}}
+          {{templatePlugin( 'menuItemTopnav', item) }}
+        {{/if}}
+      {{/each}}
+    </div>
+    <div class="webpub-topnav__region webpub-topnav__center">
+      {{each(i, item) itemsCenter}}
+        {{if item.template}}
+          {{templatePlugin( item.template, item) }}
+        {{else}}
+          {{templatePlugin( 'menuItemTopnav', item) }}
+        {{/if}}
+      {{/each}}
+    </div>
+    <div class="webpub-topnav__region webpub-topnav__right">
+      {{each(i, item) itemsRight}}
+        {{if item.template}}
+          {{templatePlugin( item.template, item) }}
+        {{else}}
+          {{templatePlugin( 'menuItemTopnav', item) }}
+        {{/if}}
+      {{/each}}
+    </div>
+  </div>
+
+{{else theme === "v4"}}
+
+  <div class="webpub-topnav-v4 {{if visible}}webpub-topnav-v4--visible{{/if}}">
+    <div class="webpub-topnav-v4__region webpub-topnav-v4__left">
+      {{each(i, item) itemsLeft}}
+        {{if item.template}}
+          {{templatePlugin( item.template, item) }}
+        {{else}}
+          {{templatePlugin( 'menuItemTopnavV4', item) }}
+        {{/if}}
+      {{/each}}
+    </div>
+    <div class="webpub-topnav-v4__region webpub-topnav-v4__center">
+      {{each(i, item) itemsCenter}}
+        {{if item.template}}
+          {{templatePlugin( item.template, item) }}
+        {{else}}
+          {{templatePlugin( 'menuItemTopnavV4', item) }}
+        {{/if}}
+      {{/each}}
+    </div>
+    <div class="webpub-topnav-v4__region webpub-topnav-v4__right">
+      {{each(i, item) itemsRight}}
+        {{if item.template}}
+          {{templatePlugin( item.template, item) }}
+        {{else}}
+          {{templatePlugin( 'menuItemTopnavV4', item) }}
+        {{/if}}
+      {{/each}}
+    </div>
+  </div>
+
+{{/if}}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<page num="5"><lk index="10001" src="1"><content y="838" width="183" height="15" x="92" id="0"><rect/></content><useract param="http://salonenligne.pole-emploi.fr" type="url" event="click" target="_blank" id="0"/></lk><lk index="10002" src="1"><content y="1287" width="95" height="15" x="219" id="0"><rect/></content><useract param="http://pole-emploi.fr" type="url" event="click" target="_blank" id="0"/></lk></page>

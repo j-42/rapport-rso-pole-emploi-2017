@@ -1,0 +1,17 @@
+{{default(badge, "")}}
+
+<a class="webpub-lightbox-page-header-icon-wrapper"
+  data-section="headerIcon" data-menu="{{name}}" data-action="{{name}}"
+  {{if label !=="" }}data-tooltip="{{label}}"{{/if}}
+>
+
+  {{if icon.url}}
+    <img class="webpub-lightbox-page-header-icon" src="{{icon.url}}">
+      <span class="webpub-lightbox-page-header-icon-badge" data-section="badge">{{badge}}</span>
+    </img>
+  {{else}}
+    <div class="webpub-lightbox-page-header-icon">{{iconPlugin(icon+ "-v4", "svgicon-v4","")}}
+      <span class="webpub-lightbox-page-header-icon-badge" data-section="badge">{{badge}}</span>
+    </div>
+  {{/if}}
+</a>

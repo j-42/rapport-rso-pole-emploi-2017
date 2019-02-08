@@ -1,0 +1,21 @@
+<div class="webpub-toast__position--wrapper" >
+  <div
+    class="webpub-toast-favorite__icon-wrapper webpub-toast-favorite__item-data webpub-toast-favorite__icon-left{{if pageLeftFavorited}} webpub-data-item--favorited{{/if}}" data-favorite="{{pageLeft}}"
+  >
+    {{iconPlugin('favorite-bold-v4', 'webpub-toast-favorite__icon', '#8c8c8c')}}
+    {{iconPlugin('favorite-bold-v4', 'webpub-toast-favorite__icon-checked', '#ffc300')}}
+  </div>
+  {{if pageRight}}
+    <div
+      class="webpub-toast-favorite__icon-wrapper webpub-toast-favorite__item-data webpub-toast-favorite__icon-right{{if pageRightFavorited}} webpub-data-item--favorited{{/if}}" data-favorite="{{pageRight}}"
+    >
+    {{iconPlugin('favorite-bold-v4', 'webpub-toast-favorite__icon', '#8c8c8c' )}}
+    {{iconPlugin('favorite-bold-v4', 'webpub-toast-favorite__icon-checked', '#ffc300')}}
+    </div>
+  {{/if}}
+
+  <div class="webpub-toast__position--text-info">
+      <span>{{localePlugin("favorites_tooltip_choose_page")}}</span>
+    <a class="webpub-toast__position--text-info--link">{{localePlugin("favorites_tooltip_see")}}</a>
+  </div>
+</div>

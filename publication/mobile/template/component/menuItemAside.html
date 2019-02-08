@@ -1,0 +1,20 @@
+<a
+  class="webpub-aside-menu__type-{{name}} webpub-aside-menu__item"
+  data-section="item" data-menu="{{name}}"
+  {{exists alternativeIcon}} data-alternativeIcon="true"{{/exists}}
+  {{exists alternativeLabel}} data-alternativeLabel="true"{{/exists}}
+>
+  {{if icon}}
+    {{if icon.url}}
+      <span class="webpub-aside-menu__item-icon-url">
+        <div class="svgicon-new" style="background-image: url('{{icon.url}}')" data-section="icon"></div>
+      </span>
+    {{else icon.text}}
+      <!-- TODO:  manage the custom Text -->
+    {{else}}
+      <span class="webpub-aside-menu__item-icon" data-section="icon">{{iconPlugin(icon, "")}}</span>
+    {{/if}}
+  {{/if}}
+  <span class="webpub-aside-menu__item-text" data-section="title">{{label}}</span>
+  <span class="webpub-aside-menu__item-badge" data-section="badge">{{badge}}</span>
+</a>

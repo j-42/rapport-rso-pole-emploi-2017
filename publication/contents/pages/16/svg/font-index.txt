@@ -1,0 +1,8 @@
+Georgia-Bold:Georgia-Bold#44:WKZMUO+Georgia-Bold-44-0:16/font13.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#39:EWBICY+PoleEmploiPro-Regular-39-0:16/font15.ttf
+Bliss2-BoldItalic:Bliss2-BoldItalic#16:WKZMUO+Bliss2-BoldItalic-16-0:16/font8.ttf
+Bliss2-Bold:Bliss2-Bold#26:WKZMUO+Bliss2-Bold-26-0:16/font10.ttf
+Bliss2-LightItalic:Bliss2-LightItalic#30:WKZMUO+Bliss2-LightItalic-30-0:16/font11.ttf
+PoleEmploiPro-Reg-Cn:PoleEmploiPro-Reg-Cn#34:WKZMUO+PoleEmploiPro-Reg-Cn-34-0:16/font12.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#53:EWBICY+PoleEmploiPro-Regular-53-0:16/font14.ttf
+Bliss2-Light:Bliss2-Light#21:WKZMUO+Bliss2-Light-21-0:16/font9.ttf

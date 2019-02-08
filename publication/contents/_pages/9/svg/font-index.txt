@@ -1,0 +1,6 @@
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#66:ZBSIPI+PoleEmploiPro-Regular-66-0:9/font10.ttf
+GraphikCond-Semibold:GraphikCond-Semibold#22:SXASVW+GraphikCond-Semibold-22-0:9/font7.ttf
+PoleEmploiPro-Reg-Cn:PoleEmploiPro-Reg-Cn#32:SXASVW+PoleEmploiPro-Reg-Cn-32-0:9/font9.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#37:ZBSIPI+PoleEmploiPro-Regular-37-0:9/font11.ttf
+PoleEmploiPro-Bold:PoleEmploiPro-Bold#17:SXASVW+PoleEmploiPro-Bold-17-0:9/font6.ttf
+Bliss2-Light:Bliss2-Light#27:SXASVW+Bliss2-Light-27-0:9/font8.ttf

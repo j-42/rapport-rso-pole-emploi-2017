@@ -1,0 +1,18 @@
+<span class="menu-item-page-control__wrapper">
+  <span class="menu-item-page-control">
+    <span class="menu-item-page-control__current" data-section="current"></span>
+    <span class="menu-item-page-control--offset-hidden" data-section="offset-hidden">
+      <span class="menu-item-page-control__word">{{localePlugin("pagination_separator")}}</span>
+      <span class="menu-item-page-control__total" data-section="total"></span>
+    </span>
+  </span>
+  <div class="menu-item-page-control__field-container" data-section="changer">
+    <div class="menu-item-page-control__field-wrapper">
+      <span class="menu-item-page-control__field-content">
+        {{iconPlugin("search-v4", "svgicon-v4 menu-item-page-control__field-icon")}}
+        <input type="text" class="menu-item-page-control__field" data-section="field" placeholder="{{localePlugin('searchPagePlaceholder')}}" />
+        {{iconPlugin("close-1-v4", "svgicon-v4 menu-item-page-control__field-icon", null, { "data-section": "close" })}}
+      </span>
+    </div>
+  </div>
+</span>

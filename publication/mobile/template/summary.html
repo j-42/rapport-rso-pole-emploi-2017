@@ -1,0 +1,17 @@
+<div class="summary-content">
+
+    <div class="popup-switch-list">
+      <div class="popup-switch-item">{{localePlugin('menu_summary')}}</div>
+      <div class="popup-switch-item inactive"></div>
+      <div class="popup-switch-item inactive"></div>
+    </div>
+
+    <ul class="summary-content__list">
+      <li>
+        {{each(i,page) pageList}}
+          {{templatePlugin( 'summaryItem', { "page": page }) }}
+        {{/each}}
+      </li>
+    </ul>
+
+</div>

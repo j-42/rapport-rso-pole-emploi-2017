@@ -1,0 +1,9 @@
+PoleEmploiPro-Light:PoleEmploiPro-Light#20:SXASVW+PoleEmploiPro-Light-20-0:10/font11.ttf
+Auto1-BlackItalicLF:Auto1-BlackItalicLF#25:SXASVW+Auto1-BlackItalicLF-25-0:10/font12.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#57:ZBSIPI+PoleEmploiPro-Regular-57-0:10/font9.ttf
+PoleEmploiPro-Reg-Cn:PoleEmploiPro-Reg-Cn#29:SXASVW+PoleEmploiPro-Reg-Cn-29-0:10/font13.ttf
+GraphikCond-Semibold:GraphikCond-Semibold#39:SXASVW+GraphikCond-Semibold-39-0:10/font15.ttf
+Bliss2-ExtraBold:Bliss2-ExtraBold#44:SXASVW+Bliss2-ExtraBold-44-0:10/font16.ttf
+PoleEmploiPro-Regular:PoleEmploiPro-Regular#15:ZBSIPI+PoleEmploiPro-Regular-15-0:10/font10.ttf
+Bliss2-Light:Bliss2-Light#49:SXASVW+Bliss2-Light-49-0:10/font17.ttf
+PoleEmploiPro-Bold:PoleEmploiPro-Bold#34:SXASVW+PoleEmploiPro-Bold-34-0:10/font14.ttf

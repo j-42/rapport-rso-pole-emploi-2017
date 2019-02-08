@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root version="1.0.0">
+  <contents pages_count="20" shift="0">
+    <content id="swf" path="${contents}${pages}%num%/page.swf" width="1024" height="1448"/>
+    <content id="alt" path="${contents}${pages}%num%/alt.swf" width="1024" height="1448"/>
+    <content path="${contents}text.xml" id="text"/>
+    <content id="low" path="${contents}${pages}%num%/489x582.jpg" width="411" height="582"/>
+    <content path="${contents}${pages}%num%/links.xml" id="links"/>
+    <content id="thumbnails" path="${contents}${pages}%num%/diapo.jpg" width="91" height="130"/>
+    <content id="thumbnails_xdpi" path="${contents}${pages}%num%/diapoxdpi.jpg" width="183" height="260"/>
+    <content id="zoom" path="${contents}${pages}%num%/1024x0.jpg" width="1024" height="1448"/>
+    <content id="zoom_hd" path="${contents}${pages}%num%/2048x0.jpg" width="2048" height="2897"/>
+    <content path="${contents}pdfweb.pdf" id="full_pdf"/>
+    <content path="${contents}${pages}%num%/page.pdf" id="pdf"/>
+    <content path="${contents}index.xml" id="summary"/>
+    <content path="${contents}${pages}%num%/page.svg" id="svg"/>
+    <content id="pdf-HTML" path="${html_folder}pages/%num%/page.html" width="800" height="400"/>
+  </contents>
+  <variables>
+    <!-- global variables -->
+    <variable id="client_id" value="90137"/>
+    <variable id="id" value="827831"/>
+    <variable id="contents" value="~/contents/"/>
+    <variable id="root" value=".."/>
+    <variable id="system" value="$contents$lib/"/>
+    <variable id="template" value="${contents}templates/"/>
+    <variable id="templates" value="${contents}templates/"/>
+    <variable id="manager_host" value="https://fr.adminzone-secure.net"/>
+    <!-- content variables -->
+    <variable id="locale" value="fr_FR.UTF-8"/>
+    <variable id="content_lib" value="${contents}lib/"/>
+    <variable id="media" value="${contents}media/"/>
+    <variable id="pages" value="pages/"/>
+    <variable id="lib" value="${root}lib/"/>
+    <variable id="locale_folder" value="${root}locale/"/>
+    <variable id="version" value="V3.29"/>
+    <variable id="html_folder" value="${contents}media-html/"/>
+    <variable id="asp_url" value="http://fr.zone-secure.net"/>
+  </variables>
+</root>

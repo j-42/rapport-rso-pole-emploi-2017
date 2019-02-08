@@ -1,0 +1,90 @@
+{{if type === "lateral"}}
+
+  {{if prevNext === true && firstLast === true}}
+
+    <div class="webpub-pagination__lateral-left webpub-pagination__lateral-containers fadeTransitionFast {{if alwaysVisible === false}}opacity-zero {{/if}}">
+      <div class="webpub-pagination__lateral-arrow-prev webpub-pagination__lateral-arrows-nextprev">
+        {{iconPlugin('left', 'webpub-pagination__lateral-arrows-nextprev-icon webpub-pagination__lateral-arrows-icon')}}
+      </div>
+      <div class="webpub-pagination__lateral-arrow-first webpub-pagination__lateral-arrows-firstlast">
+        {{iconPlugin('first', 'webpub-pagination__lateral-arrows-firstlast-icon webpub-pagination__lateral-arrows-icon')}}
+      </div>
+    </div>
+
+    <div class="webpub-pagination__lateral-right webpub-pagination__lateral-containers fadeTransitionFast {{if alwaysVisible === false}} opacity-zero {{/if}}">
+      <div class="webpub-pagination__lateral-arrow-next webpub-pagination__lateral-arrows-nextprev">
+        {{iconPlugin('right', 'webpub-pagination__lateral-arrows-nextprev-icon webpub-pagination__lateral-arrows-icon')}}
+      </div>
+      <div class="webpub-pagination__lateral-arrow-last webpub-pagination__lateral-arrows-firstlast">
+        {{iconPlugin('last', 'webpub-pagination__lateral-arrows-firstlast-icon webpub-pagination__lateral-arrows-icon')}}
+      </div>
+    </div>
+
+  {{else prevNext === true && firstLast === false}}
+
+    <div class="webpub-pagination__lateral-left webpub-pagination__lateral-containers fadeTransitionFast {{if alwaysVisible === false}}opacity-zero {{/if}}">
+      <div class="webpub-pagination__lateral-arrow-prev webpub-pagination__lateral-arrows-nextprev webpub-pagination__lateral-arrow-big">
+        {{iconPlugin('left', 'webpub-pagination__lateral-arrows-nextprev-icon webpub-pagination__lateral-arrows-icon')}}
+      </div>
+    </div>
+
+    <div class="webpub-pagination__lateral-right webpub-pagination__lateral-containers fadeTransitionFast {{if alwaysVisible === false}} opacity-zero {{/if}}">
+      <div class="webpub-pagination__lateral-arrow-next webpub-pagination__lateral-arrows-nextprev webpub-pagination__lateral-arrow-big">
+        {{iconPlugin('right', 'webpub-pagination__lateral-arrows-nextprev-icon webpub-pagination__lateral-arrows-icon')}}
+      </div>
+    </div>
+
+  {{else prevNext === false && firstLast === true}}
+
+    <div class="webpub-pagination__lateral-left webpub-pagination__lateral-containers fadeTransitionFast {{if alwaysVisible === false}}opacity-zero {{/if}}">
+      <div class="webpub-pagination__lateral-arrow-first webpub-pagination__lateral-arrows-firstlast webpub-pagination__lateral-arrow-big">
+        {{iconPlugin('first', 'webpub-pagination__lateral-arrows-firstlast-icon webpub-pagination__lateral-arrows-icon')}}
+      </div>
+    </div>
+
+    <div class="webpub-pagination__lateral-right webpub-pagination__lateral-containers fadeTransitionFast {{if alwaysVisible === false}} opacity-zero {{/if}}">
+      <div class="webpub-pagination__lateral-arrow-last webpub-pagination__lateral-arrows-firstlast webpub-pagination__lateral-arrow-big">
+        {{iconPlugin('last', 'webpub-pagination__lateral-arrows-firstlast-icon webpub-pagination__lateral-arrows-icon')}}
+      </div>
+    </div>
+
+  {{/if}}
+
+{{/if}}
+
+
+{{if type === "counter"}}
+
+  <div class="webpub-pagination__counter-container fadeTransitionFast {{if alwaysVisible === false}}opacity-zero display-none{{/if}}">
+
+    <span class="webpub-pagination__counter-current webpub-pagination__counter-indicators"></span>
+    <span class="webpub-pagination__counter-text">{{localePlugin("pagination_separator")}}</span>
+    <span class="webpub-pagination__counter-total webpub-pagination__counter-indicators"></span>
+
+  </div>
+
+  {{if popup}}
+
+    <div class="webpub-pagination__popup-container display-none">
+
+      <div class="webpub-pagination__popup-pagechange">
+
+        <div class="webpub-pagination__popup-close">{{iconPlugin('close', '', 'secondary.altContentColor')}}</div>
+        <div class="webpub-pagination__popup-intro">{{localePlugin("pagination_legend")}}</div>
+        <div class="webpub-pagination__popup-error">{{localePlugin("pagination_error")}}</div>
+        <form action="">
+          <input class="webpub-pagination__popup-current" autofocus />
+          {{localePlugin("pagination_separator")}}
+          <span class="webpub-pagination__popup-total"></span>
+          <button class="webpub-pagination__popup-submit" type="submit" class="webpub-pagination__popup-submit">
+            {{localePlugin("pagination_validate")}}
+          </button>
+        <form>
+
+      </div>
+
+    </div>
+
+  {{/if}}
+
+{{/if}}

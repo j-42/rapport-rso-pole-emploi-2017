@@ -1,0 +1,1059 @@
+/* ------->  FONTS  ---------- */
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Bol-Ita.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Bol-Ita.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Condensed';
+    src: url('../fonts/PoleEmploiPro-Reg-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Reg-Cn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Italic.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole-Emploi-PRO-Bold';
+    src: url('../fonts/PoleEmploiPro-Bold.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole-Emploi-PRO-Light';
+    src: url('../fonts/PoleEmploiPro-Light.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Condensed';
+    src: url('../fonts/PoleEmploiPro-BolIta-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-BolIta-Cn.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Condensed';
+    src: url('../fonts/PoleEmploiPro-Ita-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Ita-Cn.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Lt-Ita.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Lt-Ita.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Light Condensed';
+    src: url('../fonts/PoleEmploiPro-Lig-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Lig-Cn.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Light Condensed';
+    src: url('../fonts/PoleEmploiPro-LtIta-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-LtIta-Cn.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Condensed';
+    src: url('../fonts/PoleEmploiPro-Bol-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Bol-Cn.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole-Emploi-PRO-Reg';
+    src: url('../fonts/PoleEmploiPro-Regular.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Bold.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Light Condensed';
+    src: url('../fonts/PoleEmploiPro-Lig-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Lig-Cn.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Bol-Ita.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Bol-Ita.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Condensed';
+    src: url('../fonts/PoleEmploiPro-Reg-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Reg-Cn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Condensed';
+    src: url('../fonts/PoleEmploiPro-Bol-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Bol-Cn.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Light.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Condensed';
+    src: url('../fonts/PoleEmploiPro-BolIta-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-BolIta-Cn.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Condensed';
+    src: url('../fonts/PoleEmploiPro-Ita-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Ita-Cn.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Regular.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Italic.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Lt-Ita.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Lt-Ita.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Light Condensed';
+    src: url('../fonts/PoleEmploiPro-LtIta-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-LtIta-Cn.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Bol-Ita.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Bol-Ita.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Bold.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Condensed';
+    src: url('../fonts/PoleEmploiPro-Ita-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Ita-Cn.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Light Condensed';
+    src: url('../fonts/PoleEmploiPro-LtIta-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-LtIta-Cn.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Light.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Condensed';
+    src: url('../fonts/PoleEmploiPro-BolIta-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-BolIta-Cn.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Italic.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Condensed';
+    src: url('../fonts/PoleEmploiPro-Bol-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Bol-Cn.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Regular.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO';
+    src: url('../fonts/PoleEmploiPro-Lt-Ita.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Lt-Ita.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Condensed';
+    src: url('../fonts/PoleEmploiPro-Reg-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Reg-Cn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pole Emploi PRO Light Condensed';
+    src: url('../fonts/PoleEmploiPro-Lig-Cn.woff2') format('woff2'),
+        url('../fonts/PoleEmploiPro-Lig-Cn.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* ---------  FONTS  <---------- */
+
+
+
+/* ------->  GENERAL  ---------- */
+body{
+  font-family: 'Pole Emploi PRO', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+}
+section, div, nav, img, footer {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+}
+span{
+    display: inline;
+}
+img{
+	max-width: 100%;
+}
+section{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+h1{
+    font-size: 60px;
+  margin: 0 20px;
+  text-align: center;
+  font-family: 'Pole-Emploi-PRO-Reg';
+}
+
+h2{
+   line-height: 30px;
+    font-size: 25px;
+}
+.edito h2{
+    font-size: 40px;
+    line-height: 40px;
+}
+h4{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+}
+p, .cta{
+    font-size: 20px;
+    line-height: 28px;
+}
+.btn{
+  text-align: center;
+  background-color: #064a4d;
+  color: white;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+a
+{
+    text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+}
+.fa:hover,  .btn:hover{
+    color: #ffffff;
+    background: #df2c3c;
+}
+h1 span
+{
+    font-family: 'Pole-Emploi-PRO-Light';
+}
+.map > div, p, h4{
+    transition: 1s ease;
+}
+/* --------  GENERAL  <---------- */
+
+
+
+
+/* -------->  BURGER MENU  ---------- */
+.burger-menu {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.burger-menu span {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 4px;
+  color: #105BA4;
+  text-transform: uppercase;
+  text-indent: -100px;
+  background: #105BA4;
+  transition: all 0.2s ease-out;
+}
+.burger-menu span:before,
+.burger-menu span:after {
+  content: '';
+  width: 25px;
+  height: 4px;
+  background: #105BA4;
+  position: absolute;
+  left: 0;
+  transition: all 0.2s ease-out;
+}
+.burger-menu span:before {
+  top: -8px;
+}
+.burger-menu span:after {
+  bottom: -8px;
+}
+.burger-menu.active span {
+  background: transparent;
+}
+.burger-menu.active span:before {
+  top: 0;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+.burger-menu.active span:after {
+  bottom: 0;
+  -webkit-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
+}
+.burger-menu {
+    z-index: 25;
+    top: 25px;
+    right: 25px;
+}/* --------  BURGER MENU  <---------- */
+
+
+
+/* ------->  SECTION INTRO  ---------- */
+section.intro{
+  background-image: url("../images/header-background.png");
+  background-repeat: no-repeat;
+      background-size: contain;
+}
+.header{
+	width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+    color: white;
+}
+
+.header
+{
+    padding: 20px;
+}
+.header h1{
+    font-size: 36px;
+}
+.logo
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img{
+	height: 100%;
+}
+
+
+nav ul {
+    display: none;
+    position: absolute;
+    right: 0;
+    padding: ;
+    margin: 0;
+    z-index: 5;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5)
+}
+
+
+nav.open ul{
+    display: block;
+    animation: nav 0.5s ease forwards;
+}
+@keyframes nav{
+  0%{top:-800px;}
+  100%{top: 0px;}
+}
+
+
+.cta
+{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+    background-color: #064a4d;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Pole Emploi PRO Condensed';
+    letter-spacing: 2.5px;
+}
+.cta:hover{
+     background-color: #d90819;
+}
+.illustration
+{
+    width: 100%;
+}
+
+
+
+/* --------  SECTION INTRO  <---------- */
+
+
+
+
+
+/* ------->  SECTION EDITO  ---------- */
+section.edito {
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7.87% 0% 7.87% 0%;
+}
+section.edito > div{
+    max-width: 520px;
+	width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.edito h3
+{
+    font-family: 'Pole-Emploi-PRO-Bold';
+}
+
+.edito h2
+{
+    font-family: 'Pole-Emploi-PRO-Reg';
+}
+
+.edito h3 span
+{
+    font-family: 'Pole-Emploi-PRO-Reg';
+}
+
+.edito h2 span
+{
+    font-family: 'Pole-Emploi-PRO-Light'; 
+}
+
+.edito h3
+{
+    padding-top: 5%;
+    color: #40904b;
+    font-size: 28px;
+}
+
+.edito h2
+{
+    color: #053b76;
+    text-align: center;
+}
+
+.edito p
+{
+    padding-top: 70px;
+    font-family: 'Pole-Emploi-PRO-Light';
+}
+
+.edito img
+{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.edito a p
+{
+    padding-top: 5%;
+    color: #d90819;
+    font-family: 'Pole-Emploi-PRO-Reg';
+    font-size: 20px;
+}
+.edito a svg{
+    fill:#d90819;
+    width: 50px;
+    height:50px;
+    margin: 20px auto 0 auto;
+}
+.edito a:hover svg, .edito a:hover p{
+     fill:#053b76;
+     color: #053b76;
+}
+
+/* --------  SECTION EDITO  <---------- */
+
+
+/* ------->  SECTION POLITIQUE  ---------- */
+.politique
+{
+    background-color: #e6f2db;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.politique h1
+{
+    text-align: center;
+    width: 100%;
+    
+    color: #387c6d;
+    font-size: 60px;
+    padding-bottom: 5%;
+}
+.box-container
+{
+    display: flex;
+    width: 100%;
+}
+
+.box-container > div{
+    display: flex;
+    width: 33.33%;
+    padding: 0 5%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.box-container h2
+{
+    color: #053b76;
+    font-family: 'Pole-Emploi-PRO-Reg';
+}
+
+.box-container p
+{
+    
+    font-family: 'Pole-Emploi-PRO-Reg';
+}
+.box-container p.main{
+     min-height: 150px;
+}  
+
+
+.box1
+{
+    border-right: solid 1px #053b76; 
+}
+
+.box3
+{
+    border-left: solid 1px #053b76; 
+}
+
+.info
+{
+    color: #003976;
+    font-family: 'Pole-Emploi-PRO-Reg';
+}
+.politique a svg{
+    fill:#053b76;
+    width: 50px;
+    height:50px;
+    margin: auto;
+}
+.politique a:hover svg, .politique a:hover p{
+     fill:#d90819;
+     color: #d90819;
+}
+
+/* --------  SECTION POLITIQUE  <---------- */
+
+
+/* ------->  SECTION MAP  ---------- */
+
+section.map
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 80px auto;
+    width: 100%;
+}
+
+.map h1
+{
+    padding-bottom: 5%;
+    width: 100%;
+    color: #053b76;
+}
+
+.map h1 span
+{
+    color: #40904b;
+}
+
+.map  > div{
+    width: 50%;
+    display: flex;
+    min-height: 760px;
+    justify-content: center;
+    align-items: center;
+}
+
+.svgmap{
+    background-color: #054b4e;
+    padding:80px;
+}
+.svgmap svg{
+    width: 100%;
+}
+
+.st0{fill:#8ECFD5;stroke:#1A171B;stroke-width:0.2;stroke-miterlimit:10;}
+.st1{fill:#06AAE0;stroke:#1A171B;stroke-width:0.2;stroke-miterlimit:10;}
+.st2{fill:#06AAE0;stroke:#1A171B;stroke-width:0.2;}
+.st3{fill:#8EC36E;stroke:#1A171B;stroke-width:0.2;stroke-miterlimit:10;}
+.st4{fill:#D4E4B2;stroke:#1A171B;stroke-width:0.2;stroke-miterlimit:10;}
+.st5{fill:#1C7FC2;stroke:#1A171B;stroke-width:0.2;stroke-miterlimit:10;}
+.st6{fill:#327D6D;stroke:#1A171B;stroke-width:0.2;stroke-miterlimit:10;}
+.st8{fill:#FFFFFF;}
+.st9{fill:url(#SVGID_1_);}
+.st10{fill:url(#SVGID_2_);}
+.st11{fill:url(#SVGID_3_);}
+.st12{fill:none;}
+.st13{fill:url(#SVGID_4_);}
+.st14{fill:#DA0719;}
+.st15{fill:url(#SVGID_5_);}
+.st16{fill:url(#SVGID_6_);}
+.st17{fill:url(#SVGID_7_);}
+.st18{fill:url(#SVGID_8_);}
+.st19{fill:url(#SVGID_9_);}
+.st20{fill:url(#SVGID_10_);}
+.st21{fill:url(#SVGID_11_);}
+.st22{fill:url(#SVGID_12_);}
+.st23{fill:url(#SVGID_13_);}
+.st24{fill:url(#SVGID_14_);}
+.st25{fill:url(#SVGID_15_);}
+.st26{fill:url(#SVGID_16_);}
+.st27{fill:url(#SVGID_17_);}
+.st28{fill:url(#SVGID_18_);}
+.st29{fill:url(#SVGID_19_);}
+.st30{fill:url(#SVGID_20_);}
+.st32{fill:url(#SVGID_21_);}
+.st33{fill:url(#SVGID_22_);}
+.st34{fill:url(#SVGID_23_);}
+.st35{fill:url(#SVGID_24_);}
+
+.marker{fill:#043878;}
+.active{fill:#8EC36E;}
+
+
+.marker.active{
+
+}
+
+.region.aquitaine{
+    fill:#D4E4B2;
+}
+.region.auvergneLeft, .region.auvergneRight{
+    fill:#06AAE0;
+}
+.region.occitanie{
+    fill: #8EC36E;
+}
+.region.reunion{
+    fill:#8ECFD5;
+}
+
+
+.region {
+    cursor: pointer;
+}
+.region.active{
+    fill: #e54e5b;
+}
+
+
+.map .detail{
+    background-color: #2f7d6d;
+    padding: 80px 80px 100px 80px;
+}
+
+.map svg.arrow {
+    fill: #054b4e;
+    position: absolute;
+    left: -3px;
+    top: calc(50% - 50px);
+}
+
+.detail p{
+    color:white;
+    text-align: left;
+}
+.detail p span{
+    font-family: 'Pole Emploi PRO Condensed';
+}
+.detail > div, .detail > div.selected a{
+    display: none;
+}
+.detail > div.selected{
+    display: block;
+}
+.selected span{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.selected svg{
+   fill: #ffffff;
+    width: 50px;
+    height: 50px;
+    margin: 25px auto 0 auto;
+}
+.selected a{
+    margin: 60px auto 0 auto;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.selected a:hover span, .selected a:hover svg {
+    fill:#d4e4b2;
+    color:#d4e4b2;
+}
+/* --------  SECTION MAP  <---------- */
+
+/* ------->  SECTION PERSPECTIVES  ---------- */
+
+
+.perspectives
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:80px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #649e52;
+}
+.perspectives .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perspectives h1
+{
+    color: white;
+}
+
+.videoContainer{
+    margin-top: 5%;
+    cursor: pointer;
+}
+.videoContainer:hover svg{
+    fill:white;
+    background-color:#df2c3c;
+ }
+.videoContainer svg{
+    fill:white;
+    width: 120px;
+    height:120px;
+    border-radius:70px;
+}
+.perspectives a
+{
+    position: absolute;
+    top: calc(50% - 60px);
+    left: calc(50% - 60px);
+}
+
+/* --------  SECTION perspectives  <---------- */
+
+/* ------->  SECTION RAPPORT  ---------- */
+section.rapport{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20%;
+}
+
+.rapport a{
+    font-size: 30px;
+    width: 100%;
+    padding: 40px 10px;
+}
+
+
+/* --------  SECTION RAPPORT  <---------- */
+
+/* ------->  FOOTER  ---------- */
+footer{
+   background-color: #053b76;
+   width: 100%;
+}
+
+.footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 45px 10px;
+}
+
+.footer-logo
+{
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.site-list
+{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+}
+.infoLegales
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    padding:0;
+}
+.site-list a, .infoLegales a
+{
+    color: white;
+    padding: 0 10px;
+    font-family: 'Pole Emploi PRO Condensed';
+    font-size:20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.site-list a:hover, .infoLegales a:hover, .socials a:hover i{
+     color:#df2c3c;
+}
+.footer .fa
+{
+    color: #053b76;
+    background: white;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin: 0 10px;
+}
+
+#social{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 20px 0;
+}
+
+
+
+/* --------  FOOTER  <---------- */
+
+
+
+@media (max-width: 900px){
+   .box-container{
+        flex-wrap: wrap;
+   }
+   .box-container > div{
+        width: 100%;
+        margin: 0 80px 80px 80px;
+        padding: 0 0 80px 0;
+   }
+   .box1, .box2{
+        border: none;
+        border-bottom: solid 1px #053b76;
+   }.box3{
+        border: none;
+   }
+
+   .box-container p.main{
+       min-height: auto;
+        max-width: 500px;
+   }
+   .site-list{
+        flex-wrap: wrap;
+   }
+   .header{
+        height: auto;
+        flex-wrap: wrap;
+   }.logo{
+        flex-wrap: wrap;
+   }.header h1{
+        margin: 20px;
+        width: 100%;
+   }
+   section.intro{
+       background-size: cover;
+   }
+   .edito img{
+       width: 100%;
+   }
+   #social{
+        margin:20px 0;
+   }
+   .container{
+        width: 100%;
+   }
+   .map > div{
+        width: 100%;
+        min-height:auto;
+       
+   }
+   .map .detail{
+        padding: 50px 30px 30px 30px;
+   }
+   .svgmap{
+        padding:10px;
+   }
+   .map svg.arrow{
+        top: -3px;
+        left: calc(50% - 50px);
+        transform: rotate(90deg);
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+<ul class="summary-content__list">
+
+  <li class="summary-content__list-item focusable depth-{{page.level}} {{page.itemClass}} summary-content__link" data-page="{{page.gotopage}}">
+    <div class="summary-content__list-item-text {{page.itemTextClass}}">{{page.textContent}}</div>
+    <span class="summary-content__list-item-pagenumber">{{page.pageNumber}}</span>
+  </li>
+
+  {{each(i,subpage) page.items}}
+    {{templatePlugin( 'summaryItem', { "page": subpage }) }}
+  {{/each}}
+
+</ul>

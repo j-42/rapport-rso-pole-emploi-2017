@@ -1,0 +1,44 @@
+{{default(logoSrc, false)}}
+
+{{if theme === "v3"}}
+
+  <div class="webpub-aside-menu">
+    <div class="webpub-aside-menu-title">{{title}}</div>
+    {{each(i, item) items}}
+      {{if item.template}}
+        {{templatePlugin( item.template, item) }}
+      {{else}}
+        {{templatePlugin( 'menuItemAside', item) }}
+      {{/if}}
+    {{/each}}
+  </div>
+
+{{else theme === "v4"}}
+
+  <div class="webpub-aside-menu-v4 opacity-zero display-none">
+
+    <div class="webpub-aside-menu-v4__header">
+      <div class="webpub-aside-menu-v4__header-logo-wrapper">
+        {{if logoSrc}}
+          <img src="{{logoSrc}}" class="webpub-aside-menu-v4__header-logo" />
+        {{/if}}
+      </div>
+      <svg class="webpub-aside-menu-v4__header-close"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svgicon-close-1-v4"></use></svg>
+    </div>
+
+    <div class="webpub-aside-menu-v4__item-swrapper">
+      <div class="webpub-aside-menu-v4__item-wrapper">
+        {{each(i, item) items}}
+          {{if item.template}}
+            {{templatePlugin( item.template, item) }}
+          {{else}}
+            {{templatePlugin( 'menuItemAsideV4', item) }}
+          {{/if}}
+        {{/each}}
+      </div>
+    </div>
+    <div class="webpub-aside-menu-v4__paging-wrapper"></div>
+
+  </div>
+
+{{/if}}

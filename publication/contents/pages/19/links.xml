@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page num="19" method="cooked">
+  <lk index="10001" src="1">
+    <content y="1351" width="458" height="14" x="284">
+      <rect/>
+    </content>
+    <useract param="http://rapport-annuel.pole-emploi.org/rapport-de-responsabilite-societale/home.html" type="url" event="click" target="_blank"/>
+  </lk>
+</page>

@@ -1,0 +1,54 @@
+{
+  "reader" : {
+    "type" : "html",
+    "mode" : "3d",
+    "configurationVersion" : 2
+  },
+  "ui" : {
+    "paging" : {
+      "mode" : [ "counter" ]
+    },
+    "menu" : {
+      "mode" : [ "aside", "topnav" ]
+    },
+    "zoom" : {
+      "mode" : [ "doubleclick", "pinch" ]
+    },
+    "theme" : {
+      "mode" : [ "v4" ]
+    }
+  },
+  "uiDesktop" : {
+    "menu" : {
+      "mode" : [ "aside", "topnav" ],
+      "topnav" : {
+        "display" : "sticky"
+      }
+    },
+    "paging" : {
+      "mode" : [ "lateral", "counter" ],
+      "lateral" : {
+        "display" : "sticky"
+      }
+    }
+  },
+  "uiTab" : {
+    "menu" : {
+      "mode" : [ "aside", "topnav" ],
+      "topnav" : {
+        "display" : "sticky"
+      }
+    }
+  },
+  "core" : {
+    "viewer" : "v4"
+  },
+  "vendor" : {
+    "swiffy" : "7.3"
+  },
+   "startup" : {
+    "welcomepage" : {
+      "url" : "${template}panneau/"
+    }
+  }
+}

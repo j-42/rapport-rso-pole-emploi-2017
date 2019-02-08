@@ -1,0 +1,36 @@
+<div class="webpub-share__container webpub-share__frame-step">
+
+  <div class="webpub-share__thumbnail-container">
+    <img class="webpub-share__thumbnail{{if thumbnailUrlRight}} webpub-share__thumbnail-left{{/if}}{{if thumbnailUrlLeftInactive}} webpub-share__thumbnail-unchecked{{/if}}" src="{{thumbnailUrlLeft}}" data-page="left">
+    {{if thumbnailUrlRight}}
+      <img class="webpub-share__thumbnail webpub-share__thumbnail-right{{if thumbnailUrlRightInactive}} webpub-share__thumbnail-unchecked{{/if}}" src="{{thumbnailUrlRight}}" data-page="right">
+    {{/if}}
+  </div>
+
+  <div class="webpub-share__content">
+    <div class="webpub-share__step-title">{{sharePanelTitle}}</div>
+
+    <ul class="webpub-share__item-list">
+      <li class="webpub-share__item webpub-share__left-page" data-page="left">
+        <span class="webpub-share-icon webpub-share-icon-circle">{{iconPlugin('circle-v4','')}}</span>
+        <span class="webpub-share-icon webpub-share-icon-checked">{{iconPlugin('check-2-bold-v4','')}}</span>
+        {{localePlugin("share_left_page")}}
+      </li>
+      <li class="webpub-share__item webpub-share__right-page" data-page="right" >
+        <span class="webpub-share-icon webpub-share-icon-circle">{{iconPlugin('circle-v4','')}}</span>
+        <span class="webpub-share-icon webpub-share-icon-checked">{{iconPlugin('check-2-bold-v4','')}}</span>
+        {{localePlugin("share_right_page")}}
+      </li>
+    </ul>
+
+    <div class="webpub-share__item-list-bottom">
+      <div class="webpub-share__button webpub-share__button-back">
+        <span>{{localePlugin("back")}}</span>
+      </div>
+      <div class="webpub-share__button webpub-share__button-confirm">
+        <span>{{localePlugin("confirm")}}</span>
+      </div>
+    </div>
+
+  </div>
+</div>

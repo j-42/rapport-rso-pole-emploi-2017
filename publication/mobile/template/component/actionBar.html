@@ -1,0 +1,29 @@
+{{default(itemRightText, false)}}
+{{default(itemLeftChecked, false)}}
+
+<div class="webpub-action-bar">
+
+  <div class="focusable webpub-action-bar__item webpub-action-bar__item-left webpub-action-bar__share-mode{{if itemLeftChecked}} webpub-share__checkbox--checked{{/if}}" data-share-mode="url">
+
+    <span class="webpub-share-icon webpub-share-icon-circle">{{iconPlugin('circle-v4','')}}</span>
+    <span class="webpub-share-icon webpub-share-icon-checked">{{iconPlugin('check-2-bold-v4','')}}</span>
+    {{itemLeftText}}
+  </div>
+
+  {{if itemRightText}}
+    <div class="focusable webpub-action-bar__item webpub-action-bar__item webpub-action-bar__item-center webpub-action-bar__share-mode" data-share-mode="pdf">
+      <span class="webpub-share-icon webpub-share-icon-circle">{{iconPlugin('circle-v4','')}}</span>
+      <span class="webpub-share-icon webpub-share-icon-checked">{{iconPlugin('check-2-bold-v4','')}}</span>
+      {{itemRightText}}
+    </div>
+  {{/if}}
+
+  <div class="webpub-action-bar__item-right webpub-action-bar__confirm" data-action="confirm">
+    {{if w.Param.isPhone}}
+      {{localePlugin("ok")}}
+    {{else}}
+      {{localePlugin("confirm")}}
+    {{/if}}
+  </div>
+
+</div>

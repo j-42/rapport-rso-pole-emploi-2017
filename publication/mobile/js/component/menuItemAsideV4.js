@@ -1,0 +1,1 @@
+"use strict";!function(e){e.Class.TemplateManager.addComponent("menuItemAsideV4",function(n){n=e.Main.menuService.get(n.name),n.onload&&n.onload(this),n.onclick&&this.addEventListener(e.Param.eventClick,n.onclick)})}(webpublicationNamespace);

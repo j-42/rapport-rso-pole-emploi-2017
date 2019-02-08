@@ -1,0 +1,50 @@
+<div class="webpub-share__container webpub-share__social-step">
+
+
+
+  <div class="webpub-share__thumbnail-container">
+    <img class="webpub-share__thumbnail{{if thumbnailUrlRight}} webpub-share__thumbnail-left{{/if}}{{if thumbnailUrlLeftInactive}} webpub-share__thumbnail-unchecked{{/if}}" src="{{thumbnailUrlLeft}}">
+    {{if thumbnailUrlRight}}
+      <img class="webpub-share__thumbnail webpub-share__thumbnail-right{{if thumbnailUrlRightInactive}} webpub-share__thumbnail-unchecked{{/if}}" src="{{thumbnailUrlRight}}">
+    {{/if}}
+  </div>
+
+  <div class="webpub-share__content">
+
+    <div class="webpub-share__close-container">
+      <div class="webpub-share__button-back">{{localePlugin("back")}}</div>
+      <div class="webpub-share__close">{{localePlugin("close")}}</div>
+    </div>
+
+    <div class="webpub-share__step-title">{{sharePanelTitle}}</div>
+
+    <ul class="webpub-share__social-list">
+      {{each(i,sendMethod) sendMethods}}
+        {{if sendMethod}}
+           <li class="webpub-share__social-icon-{{i}}">
+              <div class="wpmt-button__default wpmt-button__style-square--icon-{{i}} wpmt-button__style-square">
+                {{iconPlugin(i + '-bold-v4','')}}
+              </div>
+             <div class="webpub-share__social-icon-name">{{localePlugin("menu_"+ i)}}</div>
+           </li>
+        {{/if}}
+      {{/each}}
+    </ul>
+
+    {{if socials}}
+      <ul class="webpub-share__social-list">
+        {{each(i,social) socials}}
+          {{if social}}
+             <li class="webpub-share__social-icon-{{i}}">
+               <div class="wpmt-button__default wpmt-button__style-square--icon-{{i}} wpmt-button__style-square">
+                 {{iconPlugin(i + '-v4','')}}
+               </div>
+               <div class="webpub-share__social-icon-name">{{localePlugin(i)}}</div>
+             </li>
+          {{/if}}
+        {{/each}}
+      </ul>
+    {{/if}}
+
+  </div>
+</div>

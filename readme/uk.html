@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Masters Readme</title>
+<link rel="stylesheet" href="css/style.css">
+
+<script>
+	function langChoose() {
+		var langSelect = document.getElementById("langSelect");
+		var selectedLang = langSelect.options[langSelect.selectedIndex].value;
+		window.open(selectedLang + ".html","_self");
+	}
+</script>
+</head>
+
+<body>
+<div id="topmenu">
+	<div id="menu">
+		<select id="langSelect" name="lang" onchange="langChoose()">
+		  <option value="uk" selected>English</option>
+		  <option value="fr">Francais</option>
+		  <option value="es">Espanol</option>
+		  <option value="ru">Ру́сский</option>
+		  <!-- 
+		  <option value="de">Deutsch</option>
+		  <option value="it">Italiano</option>
+		  <option value="pl">Polski</option>
+		  <option value="br">Portugues</option>
+		  <option value="tr">Turkce</option> 
+		  -->
+		</select>
+		
+		
+		<span id="title">Readme</span>
+		
+	</div>
+</div>
+
+<div id="content">
+<div id="wrapper">
+	<h2>How to run the offline master</h2>
+	<div>
+	<p>
+	<h3><i>On Windows</i></h3>
+	<ol>
+		<li>Unzip the downloaded master zip file by extracting it into a new directory</li>
+		<li>Open the new directory</li>
+		<li>Run "start.exe" file</li>
+	</ol>
+	</p>
+	<p>
+	<h3><i>On Mac</i></h3>
+	<ol>
+		<li>Unzip the downloaded master zip file</li>
+		<li>Unzip "start.zip" file in the same directory</li>
+		<li>(On Sierra) Drag and drop "start" application it to desktop and then drag and drop it back to the master directory</li>
+		<li>Run "start" application</li>
+	</ol>
+	</p>
+	</div>
+	
+	<br />
+	<h2>How to install the online master</h2>
+	<div>
+	<p>
+	<h3><i>Requirements</i></h3>
+	<ul>
+		<li>Web Server(Apache, Nginx, Microsoft IIS, etc) which is configured to serve at minimum the following MIME Types(available by default for recent versions of most web servers):</li>
+		<ul>
+			<li>JSON (<i>application/json</i>)</li>
+			<li>XML (<i>application/xml</i>)</li>
+			<li>HTML (<i>text/html</i>)</li>
+			<li>JavaScript (<i>text/javascript</i>)</li>
+			<li>CSS (<i>text/css</i>)</li>
+			<li>JPG (<i>image/jpeg</i>)</li>
+			<li>PNG (<i>image/png</i>)</li>
+			<li>SVG (<i>image/svg+xml</i>)</li>
+			<li>SWF (<i>application/x-shockwave-flash</i>)</li>
+			<li>PDF (<i>application/pdf</i>)</li>
+			<li>MP4 (<i>video/mp4</i>)</li>
+		</ul>
+		<li>Permission to serve content from the following set of dot-prefixed folders:</li>
+		<ul>
+			<li>.drive</li>
+			<li>.gallery</li>
+		</ul>
+	</ul>
+	</p>
+	<p>
+	<h3><i>Installation</i></h3>
+	<ol>
+		<li>Unzip the downloaded master zip file by extracting it into a new directory</li>
+		<li>Move the new directory to the desired location inside the configured directory for the Web Server</li>
+	</ol>
+	</p>
+	</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Masters Readme</title>
+<link rel="stylesheet" href="css/style.css">
+
+<script>
+	function langChoose() {
+		var langSelect = document.getElementById("langSelect");
+		var selectedLang = langSelect.options[langSelect.selectedIndex].value;
+		window.open(selectedLang + ".html","_self");
+	}
+</script>
+</head>
+
+<body>
+<div id="topmenu">
+	<div id="menu">
+		<select id="langSelect" name="lang" onchange="langChoose()">
+		  <option value="uk">English</option>
+		  <option value="fr">Français</option>
+		  <option value="es">Español</option>
+		  <option value="ru" selected>Ру́сский</option>
+		  <!-- 
+		  <option value="de">Deutsch</option>
+		  <option value="it">Italiano</option>
+		  <option value="pl">Polski</option>
+		  <option value="br">Português</option>
+		  <option value="tr">Türkçe</option> 
+		  -->
+		</select>
+		
+		
+		<span id="title">Readme</span>
+		
+	</div>
+</div>
+
+<div id="content">
+<div id="wrapper">
+	<h2>Как запустить офлайн мастер</h2>
+	<div>
+	<p>
+	<h3><i>На Windows</i></h3>
+	<ol>
+		<li>Распакуйте скачанный zip-архив в новую папку</li>
+		<li>Откройте новую папку</li>
+		<li>Запустите файл "start.exe"</li>
+	</ol>
+	</p>
+	<p>
+	<h3><i>На Mac</i></h3>
+	<ol>
+		<li>Распакуйте скачанный zip-архив</li>
+		<li>Распакуйте файл "start.zip" в ту же папку</li>
+		<li>Двойной клик на start запустит публикацию. Если у вас возникла ошибка, то перетащите файл на рабочий стол, а затем верните его в исходную папку</li>
+		<li>Запустите файл "start"</li>
+	</ol>
+	</p>
+	</div>
+	
+	<br />
+	<h2>Как установить онлайн мастер</h2>
+	<div>
+	<p>
+	<h3><i>Требования</i></h3>
+	<ul>
+		<li>Веб-сервер (Apache, Nginx, Microsoft IIS, и т.д.), сконфигурированный как минимум для следующих  MIME-типов (доступно по умолчанию для большинства современных версий большинства веб-серверов):</li>
+		<ul>
+			<li>JSON (<i>application/json</i>)</li>
+			<li>XML (<i>application/xml</i>)</li>
+			<li>HTML (<i>text/html</i>)</li>
+			<li>JavaScript (<i>text/javascript</i>)</li>
+			<li>CSS (<i>text/css</i>)</li>
+			<li>JPG (<i>image/jpeg</i>)</li>
+			<li>PNG (<i>image/png</i>)</li>
+			<li>SVG (<i>image/svg+xml</i>)</li>
+			<li>SWF (<i>application/x-shockwave-flash</i>)</li>
+			<li>PDF (<i>application/pdf</i>)</li>
+			<li>MP4 (<i>video/mp4</i>)</li>
+		</ul>
+		<li>Разрешение на показ содержимого из следующего набора префиксных папок:</li>
+		<ul>
+			<li>.drive</li>
+			<li>.gallery</li>
+		</ul>
+	</ul>
+	</p>
+	<p>
+	<h3><i>Установка</i></h3>
+	<ol>
+		<li>Распакуйте скачанный zip-архив в новую папку</li>
+		<li>Переместите новую папку в нужное место внутри созданной папки на веб-сервере</li>
+	</ol>
+	</p>
+	</div>
+</div>
+</div>
+
+</body>
+</html>

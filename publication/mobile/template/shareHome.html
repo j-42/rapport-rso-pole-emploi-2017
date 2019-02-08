@@ -1,0 +1,41 @@
+<div class="webpub-share__container webpub-share__home-step">
+
+
+
+  <div class="webpub-share__thumbnail-container">
+    <img class="webpub-share__thumbnail{{if thumbnailUrlRight}} webpub-share__thumbnail-left{{/if}}" src="{{thumbnailUrlLeft}}">
+    {{if thumbnailUrlRight}}
+      <img class="webpub-share__thumbnail webpub-share__thumbnail-right" src="{{thumbnailUrlRight}}">
+    {{/if}}
+  </div>
+
+  <div class="webpub-share__content">
+
+    <div class="webpub-share__close-container">
+      <div class="webpub-share__close">{{localePlugin("close")}}</div>
+    </div>
+    
+    <div class="webpub-share__step-title">{{sharePanelTitle}}</div>
+
+    <ul class="webpub-share__item-list">
+      <li class="webpub-share__item webpub-share__frame">
+        <span class="webpub-share-icon">{{iconPlugin('publication-unchecked', 'webpub-share-icon-frame')}}</span>
+        {{localePlugin("share_actual_page")}}
+      </li>
+      <li class="webpub-share__item webpub-share__publication" >
+        <span class="webpub-share-icon publication-unchecked">{{iconPlugin('publication-whole-unchecked', 'webpub-share-icon-publication')}}</span>
+        {{localePlugin("share_publication")}}
+      </li>
+    </ul>
+
+    <ul class="webpub-share__item-list-bottom">
+      <li class="webpub-share__item webpub-share__favorite">
+        <span class="webpub-share-icon">{{iconPlugin('favorite-v4', 'webpub-share-icon-frame')}}</span>
+        {{localePlugin("favorites_selection")}}
+      </li>
+    </ul>
+
+
+
+  </div>
+</div>

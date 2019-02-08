@@ -1,0 +1,65 @@
+{
+  "pages": {
+	"3": {
+      "backgroundColor": "#337d6d",
+	  "paginationColor" : "#ffffff"  
+    },
+	"4": {
+      "backgroundColor": "#a6ca5c",
+	  "paginationColor" : "#ffffff"  
+    },
+     "5": {
+	  "paginationColor" : "#a6ca5c"  
+	},
+     "6": {
+      "backgroundColor": "#337d6d",
+	  "paginationColor" : "#ffffff"  
+	},
+     "7": {
+      "backgroundColor": "#337d6d",
+	  "paginationColor" : "#ffffff"  
+	},
+     "8": {
+       "paginationColor" : "#004a4e"  
+	},
+     "9": {
+       "paginationColor" : "#004a4e"  
+	},
+     "10": {
+      "backgroundColor": "#004a4e",
+	  "paginationColor" : "#ffffff"  
+	},
+     "11": {
+      "backgroundColor": "#004a4e",
+	  "paginationColor" : "#ffffff"  
+	},
+	"12": {
+	  "paginationColor" : "#004a4e"  
+	},
+	"13": {
+	  "paginationColor" : "#004a4e"  
+	},
+	"14": {
+      "backgroundColor": "#004a4e",
+	  "paginationColor" : "#ffffff"  
+	},
+	"15": {
+      "backgroundColor": "#004a4e",
+	  "paginationColor" : "#ffffff"  
+	},
+     "16": {
+       "paginationColor" : "#004a4e"  
+	},
+     "17": {
+       "paginationColor" : "#004a4e"  
+	},
+	"18": {
+	  "paginationColor" : "#004a4e"  
+	},
+	"19": {
+      "backgroundColor": "#004a4e",
+	  "paginationColor" : "#ffffff"  
+	}
+}
+   
+}

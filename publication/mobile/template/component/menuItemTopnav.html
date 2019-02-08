@@ -1,0 +1,23 @@
+<a
+  class="webpub-topnav__type-{{name}} webpub-topnav__item{{if icon.url}} webpub-topnav__item--custom-icon{{/if}}{{if icon.text}} webpub-topnav__item--text-icon{{/if}}"
+  data-section="item" data-menu="{{name}}"
+  {{if label !=="" }}data-tooltip="{{label}}"{{/if}}
+  {{exists alternativeIcon}}data-alternativeIcon="true"{{/exists}}
+  {{exists alternativeLabel}}data-alternativeLabel="true"{{/exists}}
+>
+  {{if icon}}
+    {{if icon.url}}
+      <span class="webpub-topnav__item-icon-url">
+        <img class="webpub-topnav__item-icon-url-image" src="{{icon.url}}" data-section="icon" />
+      </span>
+    {{else icon.text}}
+      <span class="webpub-topnav__item-icon" data-section="title">{{icon.text}}</span>
+    {{else}}
+      <span class="webpub-topnav__item-icon" data-section="icon">{{iconPlugin(icon, "")}}</span>
+    {{/if}}
+  {{/if}}
+  {{if !icon || !icon.text}}
+    <span class="webpub-topnav__item-text" data-section="title">{{label}}</span>
+  {{/if}}
+  <span class="webpub-topnav__item-badge" data-section="badge">{{badge}}</span>
+</a>

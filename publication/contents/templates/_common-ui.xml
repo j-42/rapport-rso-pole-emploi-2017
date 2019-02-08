@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><root>
+  <menu_config>
+    <mode name="default">
+      <menu name="menu-left">
+        <element name="menu"/>
+      </menu>
+      <menu name="menu-center">
+        <element name="logo">
+          <file href="http://www.rapport-annuel.pole-emploi.org" url="${template}logo.png"/>
+        </element>
+      </menu>
+      <menu name="menu-burger">
+        <element name="documentback"/>
+        <element name="share_btn"/>
+        <element name="thumbnails_btn"/>
+        <element name="pdf_btn"/>
+        <element name="fullscreen_btn"/>
+        <element name="search_btn"/>
+      </menu>
+      <menu name="menu-right"/>
+</mode>
+    <mode name="desktop">
+   <menu name="menu-left">
+      <element name="logo">
+         <file href="http://www.rapport-annuel.pole-emploi.org" url="${template}logo.png"/>
+      </element>
+   </menu>
+   <menu name="menu-center">
+      <element name="page_control"/>
+   </menu>
+   <menu name="menu-right">
+      <element name="custom_btn1"/>
+     
+      <element name="search_btn"/>
+      <element name="share_btn"/>
+      <element name="pdf_btn"/>
+      <element name="print_btn"/>
+      <element name="fullscreen_btn"/>
+   </menu>
+<panel_view_control enable="true">
+        <element enable="true" name="page_range"/>
+        <element enable="true" name="zoom_less"/>
+        <element enable="true" name="zoom_range"/>
+        <element enable="true" name="zoom_more"/>
+        <element enable="true" name="fullscreen_toggle"/>
+        <element enable="true" name="zoom_reset"/>
+      </panel_view_control>
+</mode>
+    <mode name="tablet">
+   <menu name="menu-right">
+      <element name="custom_btn1"/>
+     
+      <element name="pagemark_btn"/>
+      <element name="share_btn"/>
+      <element name="thumbnails_btn"/>
+   </menu>
+   <menu name="menu-center">
+      <element name="logo">
+         <file href="http://www.rapport-annuel.pole-emploi.org" url="${template}logo.png"/>
+      </element>
+   </menu>
+   <menu name="menu-burger">
+      <element name="custom_btn1"/>
+     
+      <element name="documentback"/>
+      <element name="search_btn"/>
+      <element name="share_btn"/>
+      <element name="thumbnails_btn"/>
+      <element name="pdf_btn"/>
+      <element name="fullscreen_btn"/>
+   </menu>
+</mode>
+    <mode name="mobile">
+   <menu name="menu-center">
+      <element name="logo">
+         <file href="http://www.rapport-annuel.pole-emploi.org" url="${template}logo.png"/>
+      </element>
+   </menu>
+   <menu name="menu-right"/>
+</mode>
+  </menu_config>
+ 
+  <template>
+    <asset name="config" url="${template}config.xml"/>
+    <asset name="interface" url="${template}ui.xml"/>
+    <asset name="common_layout" url="${template}common-layout.json"/>
+    <asset name="css" url="${template}styles.css"/>
+    <asset name="css_html5" url="${template}styles_flash.css"/>
+    <asset name="locale" url="${locale_folder}messages_${locale}.xml"/>
+  <asset name="pdf-HTML-idGeneratedStyles" url="${html_folder}css/css.css"/>
+  <asset name="custom_javascript" url="${template}custom.js"/>
+</template>
+  <services>
+    <service id="pdfmerge" url="${manager_host}/services/rest/playerGateway/pdfmerge"/>
+    <service id="sendmail" url="${manager_host}/services/rest/playerGateway/sendmail"/>
+  </services>
+  <configs>
+    <viewer>
+      <mode name="desktop">
+        <zoom clicks="2" max_scale="2"/>
+        <page margin="0 0 0 0" max_height="auto" max_width="auto" swipe="true" transition_time="0.2"/>
+      </mode>
+    </viewer>
+    <!-- <page_layout value="" /> -->
+    <page_layout_html value="best"/>
+    <deep_linking value="true"/>
+  <page_layout value="best"/>
+</configs>
+</root>

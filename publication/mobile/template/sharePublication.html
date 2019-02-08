@@ -1,0 +1,36 @@
+<div class="webpub-share__container webpub-share__publication-step">
+
+  <div class="webpub-share__thumbnail-container">
+    <img class="webpub-share__thumbnail{{if thumbnailUrlRight}} webpub-share__thumbnail-left{{/if}}" src="{{thumbnailUrlLeft}}">
+    {{if thumbnailUrlRight}}
+      <img class="webpub-share__thumbnail webpub-share__thumbnail-right" src="{{thumbnailUrlRight}}">
+    {{/if}}
+  </div>
+
+  <div class="webpub-share__content">
+    <div class="webpub-share__step-title">{{sharePanelTitle}}</div>
+
+    <ul class="webpub-share__item-list">
+      <li class="webpub-share__item webpub-share__online-url">
+        <span class="webpub-share-icon webpub-share-icon-circle">{{iconPlugin('circle-v4','')}}</span>
+        <span class="webpub-share-icon webpub-share-icon-checked">{{iconPlugin('check-2-bold-v4','')}}</span>
+        {{localePlugin("share_online")}}
+      </li>
+      <li class="webpub-share__item webpub-share__pdf" >
+        <span class="webpub-share-icon webpub-share-icon-circle">{{iconPlugin('circle-v4','')}}</span>
+        <span class="webpub-share-icon webpub-share-icon-checked">{{iconPlugin('check-2-bold-v4','')}}</span>
+        {{localePlugin("share_pdf")}}
+      </li>
+    </ul>
+
+    <div class="webpub-share__item-list-bottom">
+      <div class="webpub-share__button webpub-share__button-back">
+        <span>{{localePlugin("back")}}</span>
+      </div>
+      <div class="webpub-share__button webpub-share__button-confirm">
+        <span>{{localePlugin("confirm")}}</span>
+      </div>
+    </div>
+
+  </div>
+</div>

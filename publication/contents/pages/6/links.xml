@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page num="6" method="cooked">
+  <lk index="10001" src="1">
+    <content y="1243" width="162" height="16" x="373">
+      <rect/>
+    </content>
+    <useract param="http://salonenligne.pole-emploi.fr." type="url" event="click" target="_blank"/>
+  </lk>
+</page>

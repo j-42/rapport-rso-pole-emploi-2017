@@ -1,0 +1,67 @@
+{{default(name, '')}}
+{{default(from, '')}}
+{{default(to, '')}}
+{{default(message, '')}}
+{{default(subject, '')}}
+{{default(title, '')}}
+
+<!--
+Bindings :
+ - data-action
+   - submit : Form submission
+ - data-validation
+   - mails : Single or multiple mail checking
+-->
+
+<div class="webpub-share-email">
+
+  <form class="webpub-share-email__form" method="POST" action="" data-action="submit">
+
+    <div class="webpub-share-email__fields">
+      <div class="wpmt-field-wrapper">
+        <div class="wpmt-field__label text-tiny">{{localePlugin('label_yourname')}}</div>
+        <input class="wpmt-field" name="name" value="{{name}}" />
+      </div>
+      <div class="wpmt-field-wrapper" data-error="sender">
+        <div class="wpmt-field__label text-tiny">{{localePlugin('label_youremail')}} *</div>
+        <input class="wpmt-field" name="from" type="email" value="{{from}}" data-validation="mails" />
+      </div>
+      <div class="wpmt-field-wrapper" data-error="recipient">
+        <div class="wpmt-field__label text-tiny">{{localePlugin('label_receiveremail')}} *</div>
+        <input class="wpmt-field" type="email" name="to" value="{{to}}" data-validation="mails" />
+      </div>
+      <!-- TODO: waiting dev from back to add subject
+      <div class="wpmt-field-wrapper">
+        <div class="wpmt-field__label text-tiny">{{localePlugin('label_subject')}}</div>
+        <input class="wpmt-field" name="subject" value="{{subject}}"/>
+      </div> -->
+      <div class="wpmt-field-wrapper">
+        <div class="wpmt-field__label text-tiny">{{localePlugin('label_message')}}</div>
+        <textarea class="wpmt-field"  name="message"></textarea>
+      </div>
+      {{if title}}
+        <div class="webpub-share-email__attachment">
+          <span class="webpub-share-email__attachment-title">{{localePlugin("mail_attachment")}}</span>
+          {{title}}
+          {{if sharedPages.length === 1}}
+            , page {{sharedPages[0]}}
+          {{else sharedPages.length === 2}}
+            , page {{sharedPages[0]}} &  page {{sharedPages[1]}}
+          {{else sharedPages.length > 2}}
+            , {{localePlugin("favorites_selection")}}
+          {{/if}}
+        </div>
+      {{/if}}
+      <div class="webpub-share-mandatory-notice">* : {{localePlugin("mail_mandatory_fields")}}</div>
+    </div>
+
+    <div class="webpub-share-email__submit">
+
+      <button class="wpmt-button__default wpmt-button__type-mail" id="send" name="send" type="submit">
+        <div class="wpmt-button__content">{{localePlugin("action_send")}}</div>
+      </button>
+    </div>
+
+  </form>
+
+</div>
